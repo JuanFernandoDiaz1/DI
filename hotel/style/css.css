@@ -16,6 +16,8 @@
     padding-top: 3%;
     background-image: url("../img/imgtxt.png");
     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     text-align: justify;
     justify-content: center;
   
