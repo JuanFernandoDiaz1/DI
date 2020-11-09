@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title></title>
+    <title>Riu.com | Home | Hoteles Destacados</title>
+    <link rel="icon" type="image/jpg" href="../img/icono.jpg">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="estilo-imprimir.css" media="print">
     <link rel='stylesheet' type='text/css' media='screen' href='../style/css.css'>
@@ -13,51 +14,126 @@
   <!--Header-->
     <header class="row centrar-v lados">
       <div class="col-4">
-        <img class="logo" src="../img/logo.png" alt="">
+        <a href="../index.html"><img class="logo" src="../img/logo.png" alt=""></a>
       </div>
       <div class="col-4 centro">
         <img class="palace" src="../img/palace.png" alt="">
       </div>
       <div class="col-4 row derecha">
-        <img class="iconos" src="../img/instagram.png">
-        <img class="iconos" src="../img/facebook.png">
-        <img class="iconos" src="../img/gorjeo.png">
+        <a class="iconos" href="https://www.instagram.com/riuhotels/?hl=es" target="_blank" ><img src="../img/instagram.png"></a>
+        <a class="iconos" href="https://www.facebook.com/Riuhoteles/ "target="_blank"><img src="../img/facebook.png"></a>
+        <a class="iconos" href="https://twitter.com/RiuHoteles" target="_blank"><img src="../img/gorjeo.png"></a>
       </div>
     </header>
     <!--navegaor-->
     <nav class="row">
-        <a href="#">SERVICIOS</a>
-        <a href="#">SOBRE NOSOTROS</a>
-        <a href="#">CONTACTO</a>
+        <a href="../pages/Hoteles.html">HOTELES</a>
+        <a href="../pages/SobreNosotros.html">SOBRE NOSOTROS</a>
+        <a href="../index.html">HOME</a>
    </nav>
 
-   
+   <div class="row destacados">
+      <div class="col-12"><h1>CONTACTANOS</h1></div>
+   </div>
+   <div class="row hoteles-row formulario">
+      <div class="col-6">
+        <h3>Formulario de contacto</h3><br>
+        <form action="#" method="get">
+          <p>Nombre: <input type="text" name="nombre" size="40"></p><br>
+          <p>Apellidos: <input type="text" name="apellidos" size="40"></p><br>
+          <p>Año de nacimiento: <input type="number" name="nacido" min="1900" max="2020"></p><br>
+          <p>Email: <input type="email" name="email" size="40"></p><br>
+          <p>Numero de telefono: <input type="tel"></p><br>
+          <p>Sexo:
+            <input type="radio" name="hm" value="h"> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+          </p><br>
+          <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+          </p>
+        </form>
+      </div>
+      <div class="col-6 mapa">
+        <h3>Ven a vernos</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14361.930076820925!2d2.738564338444811!3d39.51632804945078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcbd86d86b948b83b!2sRIU%20Hotels%20%26%20Resorts!5e0!3m2!1ses!2ses!4v1604431908639!5m2!1ses!2ses"width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <strong>RIU Hotels & Resorts</strong><br>
+        <p>Carrer del Llaüt, 07610 Palma, Illes Balears</p>
+      </div>
+   </div>
 
-      <!--footer-->
-      <footer class="row centrar-v pie">
+   <div class="row">
+    <div class=" col-12 destacados"><h1>CONTACTANOS A TRAVES DE NUESTRAS REDES SOCIALES</h1></div>
+   </div>
+
+   <div class="row cuadros">
+
+     <div class="col-4 redes destacados">
+      <a href="https://www.facebook.com/Riuhoteles/ " target="_blank"><img src="../img/facebook.png"></a>
+      <p>Facebook</p>
+     </div>
+
+     <div class="col-4 redes destacados">
+      <a href="https://twitter.com/RiuHoteles" target="_blank"><img src="../img/gorjeo.png"></a>
+      <p>Twitter</p>
+     </div>
+     
+     <div class="col-4 redes destacados">
+      <a href="https://www.instagram.com/riuhotels/?hl=es" target="_blank"><img src="../img/instagram.png"></a>
+      <p>Instagram</p>
+
+     </div>
+   </div>
+
+   <div class="row">
+     <div class="col-12 destacados"><h1>CONTACTA CON NUESTROS NUMEROS DE TELEFONO</h1></div>
+   </div>
+
+   <div class="row numeros centrar">
+     <div class="col-6 texto-num">
+      <p><strong>Alemania</strong> 0 800 723 4360</p>
+      <p><strong>Argentina</strong> 0 800 444 2021</p>
+      <p><strong>Australia</strong> 1 800 669 201</p>
+      <p><strong>Austria</strong> 0 800 802 960</p>
+      <p><strong>Belgica</strong> 0 800 26091</p>
+      <p><strong>Brasil</strong> 0 800 892 3280</p>
+      <p><strong>Canada</strong> 1 866 845 3765</p>
+      <p><strong>Chile</strong> 0 800 914 268</p>
+     </div>
+     <div class="col-6 texto-num">
+      <p><strong>Colombia</strong> 01 800 752 2201</p>
+      <p><strong>USA</strong> 1 888 RIU 4990</p>
+      <p><strong>España</strong> 871930 290</p>
+      <p><strong>Guatemala</strong> 1 800 835 0350</p>
+      <p><strong>Costa Rica</strong> 506 2681 2350</p>
+      <p><strong>Ecuador</strong> 01 800 000 039</p>
+      <p><strong>Francia</strong> 0 811 655 273</p>
+      <p><strong>Holanda</strong> 0 800 445 50 05</p>
+     </div>
+   </div>
+       <!--footer-->
+       <footer class="row centrar-v pie">
         <div class="col-3">
             <img class="logo" src="../img/logo.png" alt="">
         </div>
         <div class="col-3">
           <ul>
-            <li>aviso legal</li>
-            <li>politica de cookies</li>
-            <li>faq</li>
-            <li>otra cosa legal</li>
+            <li>Terminos y condiciones</li>
+            <li>Declaracion de privacidad</li>
+            <li>Preguntas frecuentes</li>
           </ul>
         </div>
         <div class="col-3">
             <ul>
-                <li>aviso legal</li>
-                <li>politica de cookies</li>
-                <li>faq</li>
-                <li>otra cosa legal</li>
+                <li>Aviso legal</li>
+                <li>Politica de cookies</li>
+                <li>Acerca de Riu</li>
             </ul>
         </div>
         <div class="col-3 derecha">
-            <img class="iconos" src="../img/gorjeo.png">
-            <img class="iconos" src="../img/facebook.png">
-            <img class="iconos" src="../img/instagram.png">
+            <a href="https://twitter.com/RiuHoteles" target="_blank"><img class="iconos" src="../img/gorjeo.png"></a>
+            <a href="https://www.facebook.com/Riuhoteles/ "target="_blank"><img class="iconos" src="../img/facebook.png"></a>
+            <a href="https://www.instagram.com/riuhotels/?hl=es" target="_blank" ><img class="iconos" src="../img/instagram.png"></a>
         </div>
     </footer>
 </body>
